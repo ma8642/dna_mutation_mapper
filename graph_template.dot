@@ -1,0 +1,37 @@
+graph G{
+node Portal [x = 10 y = 350, chr = s, start = 0, end = 0]
+node A17 [x = 100 y = 600, chr = 17, start = 36406177, end = 37277009]
+node B17 [x = 250 y = 600, chr = 17, start = 37277009, end = 38067804]
+node C17 [x = 400 y = 600, chr = 17, start = 38067804, end = 38474561]
+node D17 [x = 550 y = 600, chr = 17, start = 38474561, end = 39186315]
+node E17 [x = 700 y = 600, chr = 17, start = 39186315, end = 39542193]
+node F17 [x = 850 y = 600, chr = 17, start = 39542193, end = 40572276]
+node G17 [x = 1000 y = 600, chr = 17, start = 40572276, end = 41381579]
+node W [x = 200 y = 100, chr = 8, start = 79475425, end = 80086760]
+node X [x = 600 y = 100, chr = 8, start = 117989173, end = 121550937]
+node Y [x = 800 y = 100, chr = 8, start = 121550937, end = 125549098]
+node Z [x = 950 y = 100, chr = 8, start = 125549098, end = 125612051]
+
+Portal$end -- A17$start [label="2000"]
+A17$end -- B17$start [label="25"]
+B17$end -- C17$start [label="240"]
+C17$end -- D17$start [label="126"]
+D17$end -- E17$start [label="126"]
+E17$start -- E17$start [label="47"]
+E17$end -- F17$start [label="165"]
+F17$end -- G17$start [label="14"]
+G17$end -- Portal$start [label="1000"]
+
+Z$end -- Portal$start [label="1000"]
+
+X$end -- Portal$start [label="1000"]
+
+B17$start -- Y$start [label="316"]
+B17$end -- Z$start [label="197"]
+C17$end -- W$start [label="98"]
+E17$end -- W$end [label="94"]
+F17$end -- X$start [label="64"]
+
+Portal$end -- Y$end [label="2000"]
+Y$end -- Portal$start [label="1000"]
+}
