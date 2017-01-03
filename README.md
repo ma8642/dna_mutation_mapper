@@ -1,7 +1,7 @@
 # dna_mutation_mapper
 Software that discovers and displays order of mutation patterns in Breast Cancer fragments
 
-This software was created over 10 weeks in the Schatz Lab at Cold Spring Harbor Laboratory.  It is a DNA analysis and visualization algorithm using Python and Graphviz software. In order to create this software, I created a new Graph class that implemented nodes with start and end “ports” which better represents DNA fragments. The program is able to reveal a clear and detailed representation of the mutation process of a convoluted area in the HER2+ breast cancer genome by showing the "jumps" or structural variations as colorful paths that the user can trace with a finger. Please see abstract.txt and ALFORD.pdf for further details on project scope and impact.
+This software was created over 10 weeks in the Schatz Lab at Cold Spring Harbor Laboratory.  It is a DNA analysis and visualization algorithm using Python and Graphviz software. In order to create this software, I created a new Graph class that implemented nodes with start and end “ports” which better represents DNA fragments. The program is able to reveal a clear and detailed representation of the mutation process of a convoluted area in the HER2+ breast cancer genome by showing the "jumps" or structural variations as colorful paths that the user can trace with a finger. Please see abstract.pdf and ALFORD.pdf for further details on project scope and impact.
 
 My mentor for that summer, Maria Nattestad, has recently published an open-use, sophisticated DNA mapping software, SplitThreader (http://splitthreader.com/), which uses the same graph structure that we came up with, and ideas inspired by our discussions about my project.
 
