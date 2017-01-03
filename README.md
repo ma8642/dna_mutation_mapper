@@ -20,5 +20,5 @@ You will also see a legend in the terminal describing the paths.
 
 ![alt tag](https://github.com/ma8642/dna_mutation_mapper/blob/master/legend.png)
 
-This indicates that path 5, for example, can be attained by tracing along the green lines from chromosome fragment Y to chromosome fragment B to chromosome fragment Z, and that the minimum copy number along that path is 121.
+This indicates that path 5, for example, can be attained by tracing along the green lines from chromosome fragment Y to chromosome fragment B17 to chromosome fragment Z, and that the minimum copy number along that path is 121.
 
