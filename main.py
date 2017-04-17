@@ -524,7 +524,7 @@ class Graph(object):
 print "-------------------DNA_MUTATION_MAPPING-------------------"
 filename = sys.argv[1]
 
-template = "graph25code.dot"
+template = "graph_template.dot"
 
 # create graph from .dot data
 graph = Graph()
