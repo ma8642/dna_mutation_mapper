@@ -5,12 +5,12 @@ This software was created over 10 weeks in the Schatz Lab at Cold Spring Harbor 
 
 My mentor for that summer, Maria Nattestad, has recently published an open-use, sophisticated DNA mapping software, SplitThreader (http://splitthreader.com/), which uses the same graph structure that we came up with, and ideas inspired by our discussions about my project.
 
-#To Run
-1.  Download GraphViz (http://www.graphviz.org/), main.py, and graph_template.dot
+# To Run
+1.  Download [GraphViz](http://www.graphviz.org/), `main.py`, and `graph_template.dot`
 
-2.  Open the terminal and navigate to the file that contains main.py and graph_template.dot
+2.  Open the terminal and navigate to the file that contains `main.py` and `graph_template.dot`
 
-3.  Type into terminal:  python main.py filename
+3.  Type into terminal:  `python main.py <filename>`
 
 4.  A .png file with the filename specified will open revealing the DNA mutation mapping of the Her2 region.
 
